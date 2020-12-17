@@ -1,7 +1,6 @@
 import React from 'react';
 import Swal from 'sweetalert2';
 import './App.css';
-import 'react-dropdown/style.css';
 
 class App extends React.Component {
   constructor(props) {
@@ -88,7 +87,7 @@ class App extends React.Component {
         Swal.fire(
           'Customer Prediction',
           'The customer potentially buy your product',
-          flag,
+          'success',
           3000
         )
 
@@ -96,7 +95,7 @@ class App extends React.Component {
         Swal.fire(
           'Customer Prediction',
           'The customer not potentially buy your product',
-          flag,
+          'error',
           3000
         )
       }
