@@ -152,6 +152,7 @@ class App extends React.Component {
                     <option value="Y">Y</option>
                     <option value="N">N</option>
                   </select>
+              <div className="keterangan"> had online shopping experience</div>
                 </label></div>
                 <div className="Form-field"><label>
                   Customer Psychology :
@@ -167,6 +168,7 @@ class App extends React.Component {
                     <option value="I">I</option>
                     <option value="J">J</option>
                   </select>
+              <div className="keterangan"> based on area of residence</div>
                 </label></div>
                 <div className="Form-field"><label>
                   Marriage Status :
@@ -222,6 +224,7 @@ class App extends React.Component {
                 <div className="Form-field"><label>
                   <div>Car Probability : 0.{this.state.carprob}</div>
                   <input id="carprob" type="range" min="0" max="9" class="slider" onChange={this.changeCarProb.bind(this)} />
+                  <div className="keterangan"> probability for buy a car</div>
                 </label></div>
                 <div className="Form-field"><label>
                   Family Income :
@@ -239,6 +242,7 @@ class App extends React.Component {
                     <option value="K">K</option>
                     <option value="L">L</option>
                   </select>
+                  <div className="keterangan"> A: lowest L: highest</div>
                 </label></div>
               </div>
             </div>
