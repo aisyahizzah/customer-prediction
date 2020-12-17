@@ -1,7 +1,6 @@
 import React from 'react';
 import Swal from 'sweetalert2';
 import './App.css';
-import 'react-dropdown/style.css';
 
 class App extends React.Component {
   constructor(props) {
